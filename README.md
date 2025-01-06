@@ -1,30 +1,67 @@
-# React + TypeScript + Vite
+#  Food Ordering App**  
+A full-stack food ordering application that offers a seamless user experience for browsing, ordering, and tracking food from various restaurants. The platform integrates **React**, **Node.js**, **MongoDB**, **Auth0**, **Stripe**, and more for a robust, secure, and scalable solution.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## **Features**  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **Frontend**  
+- **Responsive Design:** Built with **React.js** and styled using **Tailwind CSS** for mobile-first, adaptive layouts.  
+- **User Authentication:** Integrated **Auth0** for secure login, registration, and token-based authentication.  
+- **Dynamic User Experience:** Implemented **React Router** for seamless navigation and a single-page application feel.  
+- **Shopping Cart:** Added a feature-rich cart allowing users to add, update, and remove items.  
 
-## Expanding the ESLint configuration
+### **Backend**  
+- **RESTful API Development:** Created scalable APIs with **Node.js** and **Express.js** for managing user data, orders, and restaurants.  
+- **Database Management:** Utilized **MongoDB** for efficient and structured data storage.  
+- **Secure Payments:** Integrated **Stripe API** to handle online transactions, ensuring a secure and smooth checkout process.  
+- **Order Management:** Added functionality for real-time order status updates with webhooks.  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### **Admin Panel**  
+- **Restaurant Management:** Allows restaurant owners to manage their menus and track orders.  
+- **Analytics Dashboard:** Displays insights on sales, user activity, and order trends.  
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## **Tech Stack**  
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+| Technology   | Description                                   |  
+|--------------|-----------------------------------------------|  
+| **React.js** | Frontend framework for building user interfaces. |  
+| **Node.js**  | JavaScript runtime for backend development.    |  
+| **Express.js** | Web application framework for Node.js.         |  
+| **MongoDB**  | NoSQL database for storing app data.           |  
+| **Auth0**    | Authentication service for secure user access. |  
+| **Stripe**   | Payment gateway for handling transactions.     |  
+
+---
+
+## **Getting Started**  
+
+### **Prerequisites**  
+- **Node.js** and **npm** installed on your machine.  
+- **MongoDB** setup locally or on a cloud service.  
+- **Stripe API keys** for payment processing.  
+- **Auth0** application set up for authentication.  
+
+### **Installation**  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-repo/food-ordering-platform.git
+   cd food-ordering-platform
+   
+### **Backend Setup:**
+cd backend
+npm install
+npm run dev
+
+### **Frontend Setup**
+cd frontend
+npm install
+npm start
+
+
+Open http://localhost:3000 to access the frontend.
+
+Backend will run on http://localhost:5000.
+    
