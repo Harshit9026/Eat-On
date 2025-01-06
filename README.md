@@ -64,4 +64,12 @@ npm start
 Open http://localhost:3000 to access the frontend.
 
 Backend will run on http://localhost:5000.
+
+### **Preview**
+
+![Project Screenshot](https://example.com/path-to-your-image.png)
+
+![Project Screenshot](https://example.com/path-to-your-image.png)
+
+
     
