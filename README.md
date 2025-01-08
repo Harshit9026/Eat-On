@@ -67,9 +67,9 @@ Backend will run on http://localhost:5000.
 
 ### **Preview**
 
-![Project Screenshot](https://github.com/Harshit9026/Eat-On/blob/my-new-branch/src/assets/WhatsApp%20Image%202025-01-06%20at%2014.01.30_c41521ad.jpg?raw=true)
+![Project Screenshot](https://github.com/Harshit9026/Eat-On/blob/my-new-branch/src/assets/Eatonimg.png?raw=true)
 
-![Project Screenshot](https://github.com/Harshit9026/Eat-On/blob/my-new-branch/src/assets/WhatsApp%20Image%202025-01-06%20at%2014.01.29_2d983dc4.jpg?raw=true)
+![Project Screenshot](https://github.com/Harshit9026/Eat-On/blob/my-new-branch/src/assets/Eatonimg2%20-%20Copy.png?raw=true)
 
 
     
