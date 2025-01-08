@@ -47,7 +47,7 @@ A full-stack food ordering application that offers a seamless user experience fo
 ### **Installation**  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-repo/food-ordering-platform.git
+   git clone (https://github.com/Harshit9026/Eat-On.git)
    cd food-ordering-platform
    
 ### **Backend Setup:**
@@ -64,4 +64,12 @@ npm start
 Open http://localhost:3000 to access the frontend.
 
 Backend will run on http://localhost:5000.
+
+### **Preview**
+
+![Project Screenshot](https://github.com/Harshit9026/Eat-On/blob/my-new-branch/src/assets/WhatsApp%20Image%202025-01-06%20at%2014.01.30_c41521ad.jpg?raw=true)
+
+![Project Screenshot](https://github.com/Harshit9026/Eat-On/blob/my-new-branch/src/assets/WhatsApp%20Image%202025-01-06%20at%2014.01.29_2d983dc4.jpg?raw=true)
+
+
     
